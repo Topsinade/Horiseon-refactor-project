@@ -1,84 +1,95 @@
 # Horiseon-refactor-project
 
-## Description 
+# HORISEON Web Refactor Project
 
-Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
+Welcome to the HORISEON Web Refactor Project! This project focuses on improving the accessibility and search engine optimization (SEO) aspects of the HORISEON website by incorporating more semantic HTML elements.
 
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
+## Project Overview
 
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
+The Horiseon Web Refactor Project aims to enhance the website's structure and semantics, making it more accessible to search engines and improving the overall user experience. By utilizing semantic HTML elements, we have organized the content in a way that aligns with best practices for SEO and web accessibility.
 
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
+## Table of Contents
 
-Lastly, if your project is deployed, include a link to the deployed application here.
+- [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Semantic HTML Elements](#semantic-html-elements)
+- [SEO Improvements](#seo-improvements)
+- [Accessibility Enhancements](#accessibility-enhancements)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+## Project Structure
 
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+The project structure has been organized to improve readability and maintainability. Key directories and files include:
 
+- `/images`: Contains images used on the website.
+- `/styles`: Contains CSS stylesheets.
+- `index.html`: The main HTML file for the Horiseon website.
 
-## Table of Contents (Optional)
+## Getting Started
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+Follow these steps to set up the project on your local machine.
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+### Prerequisites
 
+Ensure you have the following software installed:
 
-## Installation
+- Web browser
+- Code editor (e.g., Visual Studio Code, Sublime Text)
+- Github Account
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+### Installation
 
+1. Clone the repository: `git clone https://github.com/your-username/horiseon-refactor.git`
+2. Open the project in your preferred code editor.
+3. Launch the `index.html` file in a web browser.
 
-## Usage 
+## Semantic HTML Elements
 
-Provide instructions and examples for use. Include screenshots as needed. 
+The refactor introduces semantic HTML elements to enhance the structure and meaning of the content. Notable elements include:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+- `<header>`, `<nav>`, `<body>`, `<section>`, `<article>`, and `<footer>` for improved document structure.
+- `<h1>`, `<h2>`, `<h3>`, etc., for heading hierarchy.
+- <alt>  attibute for all images,
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+## SEO Improvements
 
+By adopting semantic HTML, we've improved the website's SEO performance. Key SEO improvements include:
 
-## Credits
+- Clearer page structure for search engine crawlers.
+- Proper usage of heading tags for improved content hierarchy.
+- Descriptive alt attributes for images to enhance image search optimization.
 
-List your collaborators, if any, with links to their GitHub profiles.
+## Accessibility Enhancements
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Semantic HTML contributes to improved accessibility. Notable accessibility enhancements include:
 
-If you followed tutorials, include links to those here as well.
+- Proper labeling of form elements using `<label>` tags.
+- Use of ARIA roles and attributes where applicable.
+- Ensuring a logical reading order for screen readers.
 
+## Technologies Used
 
-## License
-
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-
-
----
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
+- HTML5
+- CSS3
+- GitHub
 
 ## Contributing
 
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+We welcome contributions! To contribute to the project, follow these steps:
 
-## Tests
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/new-feature`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature/new-feature`.
+5. Submit a pull request.
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
+## License
 
----
+This project is licensed under the [MIT License](LICENSE).
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
